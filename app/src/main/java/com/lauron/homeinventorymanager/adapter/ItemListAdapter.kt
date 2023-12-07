@@ -11,7 +11,7 @@ import com.lauron.homeinventorymanager.model.Item
 
 class ItemListAdapter (
     private val activity: Activity,
-    private val itemList: List<Item>
+    private var itemList: List<Item>
 ): RecyclerView.Adapter<ItemListAdapter.ItemViewHolder>() {
 
     class ItemViewHolder (
@@ -47,5 +47,10 @@ class ItemListAdapter (
 
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         holder.bind(itemList[position])
+    }
+
+    fun filterList(filteredItemList: List<Item>) {
+        itemList = filteredItemList
+        notifyDataSetChanged()
     }
 }

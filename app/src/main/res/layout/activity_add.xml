@@ -7,6 +7,19 @@
     tools:context=".AddActivity">
 
     <TextView
+        android:id="@+id/itemVal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Php"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
         android:id="@+id/itemVal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,17 +51,17 @@
 
     <EditText
         android:id="@+id/addItemValue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="52dp"
+        android:layout_height="43dp"
         android:ems="10"
-        android:hint="Php 0.00"
+        android:hint="0.00"
         android:inputType="number|numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.565"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.534" />
+        app:layout_constraintVertical_bias="0.531" />
 
     <Spinner
         android:id="@+id/categorySpinner"

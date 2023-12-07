@@ -3,6 +3,10 @@
     <string-array name="category_array">
         <item>Living Room</item>
         <item>Kitchen</item>
+        <item>Garage</item>
+        <item>Dining Area</item>
+        <item>Bedroom</item>
+        <item>Bathroom</item>
         <!-- Add more categories as needed -->
     </string-array>
 </resources>
