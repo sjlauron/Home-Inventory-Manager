@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Home Inventory Manager</string>
+    <string-array name="category_array">
+        <item>Living Room</item>
+        <item>Kitchen</item>
+        <!-- Add more categories as needed -->
+    </string-array>
 </resources>

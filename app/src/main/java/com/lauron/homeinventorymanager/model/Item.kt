@@ -4,7 +4,7 @@ import java.util.Date
 
 data class Item(
     val name: String,
-    /*val category : String,
-    val date: Date,
-    val price: Float*/
+    val category : String,
+    val date: String,
+    val price: String
 )

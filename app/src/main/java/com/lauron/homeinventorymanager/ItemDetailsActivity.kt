@@ -13,5 +13,17 @@ class ItemDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityItemDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Retrieve data from intent
+        val itemName = intent.getStringExtra("itemName")
+        val itemCtgry = intent.getStringExtra("itemCtgry")
+        val itemDate = intent.getStringExtra("itemDate")
+        val itemValue = intent.getStringExtra("itemValue")
+
+        // Set the item name to the TextView
+        binding.nameDetails.text = itemName
+        binding.ctgryDetails.text = itemCtgry
+        binding.dateDetails.text = itemDate
+        binding.priceDetails.text = itemValue
     }
 }

@@ -20,9 +20,13 @@ class ItemListAdapter (
     ): RecyclerView.ViewHolder(binding.root) {
         fun bind(item: Item) {
             binding.name.text = item.name
+
             binding.item.setOnClickListener {
                 val intent = Intent(activity, ItemDetailsActivity::class.java)
-                //intent.putExtra()
+                intent.putExtra("itemName", item.name)
+                intent.putExtra("itemCtgry", item.category)
+                intent.putExtra("itemDate", item.date)
+                intent.putExtra("itemValue", item.price)
                 activity.startActivity(intent)
             }
         }
