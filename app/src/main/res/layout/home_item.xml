@@ -19,9 +19,8 @@
         android:id="@+id/textView3"
         android:layout_width="158dp"
         android:layout_height="wrap_content"
-        android:text="@string/more"
+        android:text="@string/tap_for_more_details"
         android:textAlignment="textEnd"
-        android:textColor="@color/black"
-        android:textSize="20sp" />
+        android:textSize="12sp" />
 
 </LinearLayout>

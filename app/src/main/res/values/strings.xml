@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Home Inventory Manager</string>
     <string name="more"><![CDATA[>]]></string>
+    <string name="tap_for_more_details">Tap for more details!</string>
     <string-array name="category_array">
         <item>Living Room</item>
         <item>Kitchen</item>
